@@ -1,0 +1,39 @@
+
+body {
+	text-align: center;
+	background-color: #ececec;
+	font-family: 'Helvetica', sans-serif;
+	}
+
+.wrapper {
+	text-align: left;
+	max-width: 800px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 15px;
+	grid-row-gap: 15px;
+	}
+
+.wrapper .panel {
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 0 4px 1px rgba(143,143,143,.2);
+    padding: 15px;
+    }
+
+.wrapper .panel h2 {
+	margin-top: 0px;
+	}
+
+#mapid {
+	height: 400px;
+	grid-column: 1 / 4;
+	}
+
+#panel-cities {
+	max-height: 200px;
+	overflow-y: scroll;
+	}
+
